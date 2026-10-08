@@ -15,13 +15,14 @@ const config: Config = {
     v4: true,
   },
 
-  // TODO: remplacer par l'URL de production (ex. GitHub Pages / Netlify)
-  url: 'https://usthb-hydraulique.example.com',
-  baseUrl: '/',
+  // Déployé sur GitHub Pages : https://oulebsir-rafik.github.io/free-surface-flow-course/
+  url: 'https://oulebsir-rafik.github.io',
+  baseUrl: '/free-surface-flow-course/',
 
-  // Déploiement GitHub Pages (à adapter si vous utilisez GitHub Pages)
-  organizationName: 'usthb',
-  projectName: 'free-surface-flow',
+  // Déploiement GitHub Pages
+  organizationName: 'oulebsir-rafik',
+  projectName: 'free-surface-flow-course',
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
 
@@ -49,8 +50,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
-          // TODO: pointer vers votre dépôt pour activer « Modifier cette page »
-          // editUrl: 'https://github.com/usthb/free-surface-flow/tree/main/',
+          editUrl:
+            'https://github.com/oulebsir-rafik/free-surface-flow-course/tree/main/',
         },
         blog: false,
         theme: {
