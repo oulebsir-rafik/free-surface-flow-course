@@ -4,6 +4,8 @@ sidebar_label: Charge en écoulement uniforme
 sidebar_position: 3
 ---
 
+import UniformFlowProfile from '@site/src/components/UniformFlowProfile';
+
 # Charge hydraulique d'un écoulement uniforme
 
 ## Description
@@ -15,6 +17,8 @@ Un écoulement uniforme peut être décrit de plusieurs façons équivalentes :
 - surface libre parallèle au fond ;
 - égalité entre la pente énergétique $J = -\mathrm{d}H/\mathrm{d}x$, la pente
   de la surface libre et la pente du canal $i = -\mathrm{d}z/\mathrm{d}x$.
+
+<UniformFlowProfile />
 
 ## Conditions nécessaires
 

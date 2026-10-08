@@ -1,0 +1,118 @@
+.figure {
+  --uf-ink: var(--ifm-color-emphasis-900);
+  --uf-surface: #2e6fdb;
+  --uf-energy: #e0383a;
+  --uf-muted: var(--ifm-color-emphasis-500);
+
+  margin: 1.5rem 0 2rem;
+}
+
+[data-theme='dark'] .figure {
+  --uf-surface: #6ea8fe;
+  --uf-energy: #ff6b6b;
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+  max-width: 640px;
+  display: block;
+  margin: 0 auto;
+  font-family: var(--ifm-font-family-base);
+  font-style: italic;
+  overflow: visible;
+}
+
+.caption {
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--ifm-color-emphasis-700);
+  margin-top: 0.75rem;
+}
+
+.baseLine,
+.zLine {
+  stroke: var(--uf-ink);
+  stroke-width: 1.5;
+}
+
+.bedLine {
+  stroke: var(--uf-ink);
+  stroke-width: 2.5;
+}
+
+.hatch {
+  stroke: var(--uf-ink);
+  stroke-width: 1.5;
+}
+
+.refLine {
+  stroke: var(--uf-muted);
+  stroke-width: 1.5;
+  stroke-dasharray: 5 4;
+}
+
+.surfaceLine {
+  stroke: var(--uf-surface);
+  stroke-width: 2.5;
+}
+
+.energyLine {
+  stroke: var(--uf-energy);
+  stroke-width: 2.5;
+}
+
+.HLine {
+  stroke: var(--uf-energy);
+  stroke-width: 2;
+}
+
+.hLine {
+  stroke: var(--uf-surface);
+  stroke-width: 1.5;
+}
+
+.vLine {
+  stroke: var(--uf-ink);
+  stroke-width: 1.5;
+}
+
+.zFill {
+  fill: var(--uf-ink);
+}
+
+.hFill {
+  fill: var(--uf-surface);
+}
+
+.vFill {
+  fill: var(--uf-ink);
+}
+
+.zLabel {
+  fill: var(--uf-ink);
+  font-size: 15px;
+}
+
+.hLabel {
+  fill: var(--uf-surface);
+  font-size: 15px;
+}
+
+.vLabel {
+  fill: var(--uf-ink);
+  font-size: 13px;
+}
+
+.HLabel {
+  fill: var(--uf-energy);
+  font-size: 15px;
+}
+
+.lineLabel {
+  fill: var(--uf-ink);
+  font-size: 13px;
+  font-style: italic;
+  dominant-baseline: middle;
+}
