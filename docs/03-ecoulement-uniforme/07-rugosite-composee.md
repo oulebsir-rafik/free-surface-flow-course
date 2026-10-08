@@ -4,6 +4,8 @@ sidebar_label: Rugosité composée
 sidebar_position: 7
 ---
 
+import InteractiveEmbed from '@site/src/components/InteractiveEmbed';
+
 # Sections de rugosité composées
 
 Les coefficients de frottement vus jusqu'ici sont valables à condition que
@@ -36,3 +38,18 @@ alors par :
 $$
 \boxed{\,n = \left[\frac{\displaystyle\sum_{i=1}^{N} P_i\, n_i^{3/2}}{P}\right]^{2/3}\,}
 $$
+
+### Simulation interactive
+
+La scène 3D ci-dessous illustre un canal dont le périmètre mouillé traverse
+trois parois différentes — talus végétalisé, fond en gravier, mur en béton —
+avec le partage de la section mouillée au sens d'Einstein. Faites varier la
+hauteur d'eau, la géométrie du canal, la pente ou la rugosité de chaque paroi
+dans le panneau de droite pour observer en direct l'effet sur le coefficient
+équivalent $n$, le rayon hydraulique $R_h$, la vitesse $U$ et le débit $Q$.
+
+<InteractiveEmbed
+  src="/interactifs/canal-rugosite-composee.html"
+  title="Canal à rugosité composée — simulation interactive"
+  height={650}
+/>
