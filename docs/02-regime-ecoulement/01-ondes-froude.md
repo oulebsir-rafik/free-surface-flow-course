@@ -4,6 +4,8 @@ sidebar_label: Régime d'écoulement
 sidebar_position: 1
 ---
 
+import InteractiveEmbed from '@site/src/components/InteractiveEmbed';
+
 # Régime d'écoulement
 
 ## Mise en évidence : propagation d'une perturbation
@@ -43,14 +45,11 @@ partir d'une perturbation, pour les trois régimes (fluvial, critique,
 torrentiel). Faites varier la vitesse de l'écoulement dans le panneau de
 droite pour observer le changement de régime en direct.
 
-<iframe
+<InteractiveEmbed
   src="/interactifs/froude-ondes-gravite.html"
   title="Ondes de gravité et nombre de Froude — simulation interactive"
-  height="600"
-  loading="lazy">
-</iframe>
-
-[Ouvrir la simulation en plein écran ↗](pathname:///interactifs/froude-ondes-gravite.html)
+  height={600}
+/>
 
 ## Nombre de Froude
 
