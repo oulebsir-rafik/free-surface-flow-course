@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Open-Channel Flow",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Course logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Cours": {
+    "message": "Course",
+    "description": "Navbar item with label Cours"
+  },
+  "item.label.Travaux dirigés": {
+    "message": "Problem sets",
+    "description": "Navbar item with label Travaux dirigés"
+  },
+  "item.label.Annexes": {
+    "message": "Appendices",
+    "description": "Navbar item with label Annexes"
+  }
+}

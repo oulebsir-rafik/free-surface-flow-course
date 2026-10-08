@@ -1,0 +1,9 @@
+{
+  "label": "7. Ouvrages hydrauliques",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Déversoirs, seuils, vannes, chutes et transitions.",
+    "slug": "/ouvrages-hydrauliques"
+  }
+}

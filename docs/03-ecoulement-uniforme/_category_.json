@@ -1,0 +1,9 @@
+{
+  "label": "3. Écoulement uniforme",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Charge hydraulique, perte de charge, formules de Chézy et de Manning-Strickler, profondeur normale et sections de rugosité composée.",
+    "slug": "/ecoulement-uniforme"
+  }
+}

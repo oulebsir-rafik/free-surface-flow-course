@@ -1,0 +1,9 @@
+{
+  "label": "5. Ressaut hydraulique",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Théorème de la quantité de mouvement, hauteurs conjuguées, perte de charge et bassins de dissipation.",
+    "slug": "/ressaut-hydraulique"
+  }
+}

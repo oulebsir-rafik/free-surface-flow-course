@@ -1,0 +1,9 @@
+{
+  "label": "2. Régime d'écoulement",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Ondes de gravité, nombre de Froude, hauteur critique et sections de contrôle, régimes fluvial et torrentiel.",
+    "slug": "/regime-ecoulement"
+  }
+}

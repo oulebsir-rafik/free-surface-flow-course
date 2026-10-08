@@ -1,0 +1,87 @@
+/**
+ * Thème du cours « Écoulement à surface libre ».
+ * Palette bleu-eau, lisible en mode clair et sombre.
+ */
+
+:root {
+  --ifm-color-primary: #0d6e8c;
+  --ifm-color-primary-dark: #0c637e;
+  --ifm-color-primary-darker: #0b5d77;
+  --ifm-color-primary-darkest: #094d62;
+  --ifm-color-primary-light: #0e799a;
+  --ifm-color-primary-lighter: #0f7fa1;
+  --ifm-color-primary-lightest: #118fb6;
+
+  --ifm-code-font-size: 93%;
+  --ifm-font-size-base: 16.5px;
+  --ifm-line-height-base: 1.7;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4fc3e8;
+  --ifm-color-primary-dark: #32b9e4;
+  --ifm-color-primary-darker: #23b3e2;
+  --ifm-color-primary-darkest: #1793bd;
+  --ifm-color-primary-light: #6ccdec;
+  --ifm-color-primary-lighter: #7bd3ee;
+  --ifm-color-primary-lightest: #a6e1f3;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.12);
+}
+
+/* --- Tableaux : très présents dans ce cours (coefficients, classifications) --- */
+
+.markdown table {
+  display: table;
+  width: 100%;
+  font-size: 0.92rem;
+}
+
+.markdown table th {
+  background: var(--ifm-color-emphasis-100);
+  text-align: left;
+}
+
+.markdown table td,
+.markdown table th {
+  vertical-align: top;
+}
+
+/* --- Formules KaTeX --- */
+
+/* Les équations centrées débordent sur mobile : on autorise le défilement
+   horizontal plutôt que de casser la mise en page. */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
+
+.katex {
+  font-size: 1.05em;
+}
+
+/* --- Simulations interactives embarquées (iframe) --- */
+
+.markdown iframe {
+  display: block;
+  width: 100%;
+  margin: 1.25rem 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  background: var(--ifm-background-surface-color);
+}
+
+/* --- Titres de section un peu plus aérés --- */
+
+.markdown h2 {
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.markdown h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
