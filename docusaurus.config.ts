@@ -9,7 +9,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Écoulement à surface libre',
   tagline: 'Cours d’hydraulique — USTHB',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/canal-icon.png',
 
   future: {
     v4: true,
@@ -81,7 +81,7 @@ const config: Config = {
       title: 'Écoulement à surface libre',
       logo: {
         alt: 'Logo du cours',
-        src: 'img/logo.svg',
+        src: 'img/canal-icon.png',
       },
       items: [
         {
